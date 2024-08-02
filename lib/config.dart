@@ -21,7 +21,7 @@ class Config {
 
   //List of locale language code
   List locale = ['en', 'ar', 'de', 'fr', 'es','tr','id','my'];
-  String defaultLanguage = 'en';
+  String defaultLanguage = 'id';
 
   //List of locales included
   List<Locale> supportedLocales = [
