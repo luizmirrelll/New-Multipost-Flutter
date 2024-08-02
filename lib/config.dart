@@ -20,31 +20,33 @@ class Config {
   static int quantityPrecision = 2, currencyPrecision = 2, callLogSyncDuration = 10;
 
   //List of locale language code
-  List locale = ['en', 'ar', 'de', 'fr', 'es','tr','id','my'];
+  // List locale = ['en', 'ar', 'de', 'fr', 'es','tr','id','my'];
+  List locale = ['en','id',];
+
   String defaultLanguage = 'id';
 
   //List of locales included
   List<Locale> supportedLocales = [
     Locale('en', 'US'),
-    Locale('ar', ''),
-    Locale('de', ''),
-    Locale('fr', ''),
-    Locale('es', ''),
-    Locale('tr', ''),
-    Locale('id', ''),
-    Locale('my', '')
+    // Locale('ar', ''),
+    // Locale('de', ''),
+    // Locale('fr', ''),
+    // Locale('es', ''),
+    // Locale('tr', ''),
+    Locale('id', '')
+    // Locale('my', '')
   ];
 
   //dropdown items for changing language
   List<Map<String, dynamic>> lang = [
     {'languageCode': 'en', 'countryCode': 'US', 'name': 'English'},
-    {'languageCode': 'ar', 'countryCode': '', 'name': 'العربي'},
-    {'languageCode': 'de', 'countryCode': '', 'name': 'Deutsche'},
-    {'languageCode': 'fr', 'countryCode': '', 'name': 'Français'},
-    {'languageCode': 'es', 'countryCode': '', 'name': 'Española'},
-    {'languageCode': 'tr', 'countryCode': '', 'name': 'Türkçe'},
-    {'languageCode': 'id', 'countryCode': '', 'name': 'Indonesian'},
-    {'languageCode': 'my', 'countryCode': '', 'name': 'မြန်မာ'}
+    // {'languageCode': 'ar', 'countryCode': '', 'name': 'العربي'},
+    // {'languageCode': 'de', 'countryCode': '', 'name': 'Deutsche'},
+    // {'languageCode': 'fr', 'countryCode': '', 'name': 'Français'},
+    // {'languageCode': 'es', 'countryCode': '', 'name': 'Española'},
+    // {'languageCode': 'tr', 'countryCode': '', 'name': 'Türkçe'},
+    {'languageCode': 'id', 'countryCode': '', 'name': 'Indonesian'}
+    // {'languageCode': 'my', 'countryCode': '', 'name': 'မြန်မာ'}
   ];
 
   //final initialPosition = LatLng(20.46752985010792, 82.92005813910752);
