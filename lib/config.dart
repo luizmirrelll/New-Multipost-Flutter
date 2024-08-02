@@ -5,8 +5,8 @@ class Config {
 
   static String baseUrl = 'https://demo.zahso.com.pk/';
   static int? userId;
-       String clientId = '3',
-        clientSecret = 'LsLXq0vmZJj2OjAsSrpH2Lk7aNN5pVyojPqN8e3a',
+       String clientId = '6',
+        clientSecret = 'k9QD6YnJX6uw7lZhtgFMYqupJrmjOrrX7pSYXLSv',
         copyright = '\u00a9',
         appName = 'Maju Maumere',
         version = 'V 1.7',
