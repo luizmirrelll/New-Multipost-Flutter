@@ -8,7 +8,7 @@ class Config {
        String clientId = '3',
         clientSecret = 'LsLXq0vmZJj2OjAsSrpH2Lk7aNN5pVyojPqN8e3a',
         copyright = '\u00a9',
-        appName = 'YOUR_APP_NAME',
+        appName = 'Maju Maumere',
         version = 'V 1.7',
       splashScreen = '${Config.baseUrl}uploads/mobile/welcome.jpg',
       loginScreen = '${Config.baseUrl}uploads/mobile/login.jpg',
