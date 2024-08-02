@@ -3,7 +3,7 @@ import 'dart:ui';
 
 class Config {
 
-  static String baseUrl = 'https://demo.zahso.com.pk/';
+  static String baseUrl = 'https://ntterdepan.xyz/';
   static int? userId;
        String clientId = '6',
         clientSecret = 'k9QD6YnJX6uw7lZhtgFMYqupJrmjOrrX7pSYXLSv',
